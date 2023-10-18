@@ -1,0 +1,36 @@
+@media (max-width: 850px) {
+    
+    .container {
+
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+    .container h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .divBtn {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 50%;
+    }
+    .divBtn button{
+        display: block;
+        width: 100%;
+    }
+    .divBtn p {
+        display: none;
+    }
+    .input-box  {
+       width: 100%;
+       margin: 5px;
+    }
+    .notes-container {
+        display: flex;
+        justify-content: center;
+    }
+}

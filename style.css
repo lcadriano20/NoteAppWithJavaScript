@@ -65,3 +65,12 @@
     display: flex;
     gap: 0.5rem;
 }
+.notes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.input-box {
+    width: calc(33.33% - 10px); /* Largura para 3 blocos por linha, considerando margens */
+    margin: 5px; /* Espaço entre os blocos */
+}
