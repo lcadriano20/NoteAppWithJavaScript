@@ -57,3 +57,11 @@
     right: 15px;
     cursor: pointer;
 }
+.data-box {
+    width: 100%;
+    background-color: black;
+}
+.divBtn {
+    display: flex;
+    gap: 0.5rem;
+}
